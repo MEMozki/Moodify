@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moodify AI</title>
+    <title>AI Moodify</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="Moodify.png" alt="logo.png">
+    <div class="screen">
+        <div class="glow"></div>
+        <div class="container">
+            <div class="logo">
+                <img src="Moodify.png" alt="Logo">
+            </div>
+            <textarea id="inputText" placeholder="Enter your text..."></textarea>
+            <button id="shortenBtn">SHORTEN</button>
+            <div id="outputText"></div>
         </div>
-        <textarea id="inputText" placeholder="Text..."></textarea>
-        <button id="shortenBtn">СОКРАТИТЬ</button>
-        <div id="outputText"></div>
     </div>
     <script src="script.js"></script>
 </body>
